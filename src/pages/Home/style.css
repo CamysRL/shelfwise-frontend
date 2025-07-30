@@ -1,0 +1,156 @@
+@import url('../../index.css');
+
+.principal {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 80px;
+    justify-content: center;
+    align-items: center;
+}
+
+.introducion {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    width: 50%;
+    margin: 30px 0;
+}
+
+.introducion h1 {
+    font-size: 26px;
+}
+
+.introducion a {
+    font-size: 18px;
+    border: 1px solid #DBDBDE;
+    border-radius: 20px;
+    padding: 12px;
+    width: 100px;
+    color: #DBDBDE;
+    text-decoration: none;
+    text-align: center;
+    font-weight: 600;
+}
+
+.introducion a:hover {
+    background-color: #DBDBDE;
+    color: #0B0A20;
+    text-decoration: none;
+}
+
+.popular-books {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+}
+
+.popular-books h2 {
+    font-size: 24px;
+}
+
+.books {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.books .link-book {
+    text-decoration: none;
+    color: #DBDBDE;
+}
+
+.features {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 50px;
+}
+
+.features h2 {
+    font-size: 24px;
+    text-align: center;
+}
+
+.features-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    cursor: auto;
+}
+
+.features-items .feature-section {
+    flex: 1 1 calc(33.333% - 20px); 
+    min-width: 280px;         
+    box-sizing: border-box; 
+}
+
+.features-items .feature:nth-child(1):hover {
+    background-color: #469806;
+}
+
+.features-items .feature:nth-child(2):hover{
+    background-color: #BB0C21;
+}
+
+.features-items .feature:nth-child(3):hover{
+    background-color: #EEB218;
+}
+
+.features-items .feature:nth-child(4):hover{
+    background-color: #469806;
+}
+
+.features-items .feature:nth-child(5):hover{
+    background-color: #BB0C21;
+}
+
+.features-items .feature:nth-child(6):hover{
+    background-color: #EEB218;
+}
+
+.populars {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 50px;
+    padding: 0 250px;
+}
+
+.popular-review {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 50%;
+}
+
+.popular-library {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 30%;
+}
+
+.tittle {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.tittle h3 {
+    font-size: 20px;
+}
+
+.tittle a {
+    text-decoration: none;
+    color: #DBDBDE;
+    font-size: 14px;
+}

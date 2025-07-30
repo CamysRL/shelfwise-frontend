@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Young+Serif&display=swap');
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    width: 350px;
+}
+
+.input-group label {
+    font-size: 16px;
+    color: #DBDBDE;
+}
+
+.input-group input {
+    border: none;
+    border-radius: 8px;
+    height: 25px;
+    background-color: #DBDBDE;
+    color: #0F0F27;
+    padding: 5px 10px;
+    font-family: 'jost';
+    font-weight: 500;
+}

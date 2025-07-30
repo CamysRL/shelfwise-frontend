@@ -1,0 +1,28 @@
+.container-table table {
+    border-radius: 5px;
+    text-align: center;
+    background-color: #85858C;
+    width: 150px;
+}
+
+.container-table th {
+    margin-bottom: 10px;
+    padding: 5px;
+    color: #0B0A20;
+    font-weight: 400;
+}
+
+.container-table td {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #03023D;
+    font-weight: 300;
+    text-align: left;
+    
+}
+
+.container-table a {
+    text-decoration: none;
+    color: #DBDBDE;
+}
+

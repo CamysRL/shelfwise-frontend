@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Young+Serif&display=swap');
+
+.container-review {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.imageBookReview {
+    padding: 10px;
+    height: 100%;
+}
+
+.imageBookReview img {
+    border-radius: 10px;
+    height: 220px;
+    width: 150px;
+}
+
+.review-content {
+    padding: 10px;
+}
+
+.book-details {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 10px;
+}
+
+.book-details h4 {
+    font-size: 18px;
+}
+
+.book-details p {
+    font-size: 18px;
+}
+
+.profile-fist-line {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.profile-fist-line .profile-photo {
+    width: 40px;            
+    height: 40px;
+    border-radius: 50%;    
+    object-fit: cover;   
+    display: block; 
+    border: 1px solid white;         
+}
+
+.profile-fist-line p {
+    font-size: 16px;
+}
+
+.profile-fist-line .icons {
+    height: 18px;
+}
+
+.comments-section {
+    display: flex;
+    gap: 3px;
+    align-items: center;
+}
+
+.comments-section p {
+    font-size: 14px;
+    color: #85858C;
+}
+
+.review-details {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.review-details .likes {
+    color: #85858C;
+}
+
+.text-review {
+    padding-right: 10px;
+}

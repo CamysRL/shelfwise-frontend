@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Young+Serif&display=swap');
+
+
+:root {
+  font-family: 'Jost', sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color: #DBDBDE;
+  background-color: #0B0A20;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.title-large,
+.title {
+  font-family: 'Playfair Display', serif;
+}
+
+body::-webkit-scrollbar {
+  width: 8px;
+}
+
+body::-webkit-scrollbar-track {
+  background: #1f1f1f;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #3f3f3f;
+  border-radius: none;
+  border: 1px solid #5a5a5a;
+}

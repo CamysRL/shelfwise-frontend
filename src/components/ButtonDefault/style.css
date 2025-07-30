@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Young+Serif&display=swap');
+
+button {
+    font-size: 18px;
+    padding: 8px 20px;
+    border: none;
+    border: 1px solid #DBDBDE;
+    background-color: #DBDBDE;
+    border-radius: 8px;
+    color: #0F0F27;
+    font-family: 'Jost';
+    font-weight: 500;
+    margin: 10px 0;
+}
+
+button:hover {
+    background-color: #0F0F27;
+    border: 1px solid #DBDBDE;
+    color: #DBDBDE;
+}

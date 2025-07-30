@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Young+Serif&display=swap');
+
+.container-library {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.container-library-books {
+    display: flex;
+    align-items: center;
+    position: relative;
+    gap: 0;
+}
+
+.container-library-books img {
+    height: 130px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-left: -10px;  
+    position: relative;
+    z-index: 1;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+    border: 0.5px solid #85858C;
+}
+
+.container-library-books img:nth-child(1) { z-index: 5; margin-left: 0; }
+.container-library-books img:nth-child(2) { z-index: 4; }
+.container-library-books img:nth-child(3) { z-index: 3; }
+.container-library-books img:nth-child(4) { z-index: 2; }
+.container-library-books img:nth-child(5) { z-index: 1; }
+
+.container-library-books img:hover {
+    border: 0.5px solid #F1F1F3;
+    z-index: 10;
+    transform: scale(1.05);
+}
+
+.container-library-name h4 {
+    font-size: 18px;
+    font-weight: 500;
+    padding-left: 10px;
+}
+
+.container-library-infos {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.container-library-infos .profile-photo {
+    width: 35px;            
+    height: 35px;
+    border-radius: 50%;    
+    object-fit: cover;   
+    display: block; 
+    border: 1px solid white; 
+}
+
+.container-library-infos h4 {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.section {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.section .icons {
+    height: 20px;
+}
+
+.section p {
+    color: #85858C;
+}
