@@ -25,6 +25,7 @@
     transition: all 0.2s ease-in-out;
     cursor: pointer;
     border: 0.5px solid #85858C;
+    box-shadow: 5px 0px 0px rgba(0, 0, 0, 0.25);
 }
 
 .container-library-books img:nth-child(1) { z-index: 5; margin-left: 0; }
