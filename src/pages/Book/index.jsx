@@ -45,7 +45,7 @@ export default function Book() {
             />
         </div>
       </div>
-      <Navbar />
+      
     </>
   )
 }
